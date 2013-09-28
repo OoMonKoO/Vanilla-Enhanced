@@ -27,6 +27,8 @@ public class ConfigurationHandler {
             ItemIDs.shovelHeadStoneItem_ID = config.get(Configuration.CATEGORY_ITEM, ItemNames.shovelHeadStoneItem_name, ItemIDs.shovelHeadStoneItem_ID_DEFAULT).getInt(ItemIDs.shovelHeadStoneItem_ID_DEFAULT);
             ItemIDs.shovelHeadWoodItem_ID = config.get(Configuration.CATEGORY_ITEM, ItemNames.shovelHeadWoodItem_name, ItemIDs.shovelHeadWoodItem_ID_DEFAULT).getInt(ItemIDs.shovelHeadWoodItem_ID_DEFAULT);
             ItemIDs.shovelHeadIronItem_ID = config.get(Configuration.CATEGORY_ITEM, ItemNames.shovelHeadIronItem_name, ItemIDs.shovelHeadIronItem_ID_DEFAULT).getInt(ItemIDs.shovelHeadIronItem_ID_DEFAULT);
+            ItemIDs.toolSawItem_ID = config.get(Configuration.CATEGORY_ITEM, ItemNames.toolSawItem_name, ItemIDs.toolSawItem_ID_DEFAULT).getInt(ItemIDs.toolSawItem_ID_DEFAULT);
+            ItemIDs.toolKnifeItem_ID = config.get(Configuration.CATEGORY_ITEM, ItemNames.toolKnifeItem_name, ItemIDs.toolKnifeItem_ID_DEFAULT).getInt(ItemIDs.toolKnifeItem_ID_DEFAULT);
 
             
             

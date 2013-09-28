@@ -35,6 +35,12 @@ public class ItemIDs {
     public static int toolPickFlintItem_ID;
     public static final int toolPickFlintItem_ID_DEFAULT = 11005;
     
+    public static int toolSawItem_ID;
+    public static final int toolSawItem_ID_DEFAULT = 11011;
+    
+    public static int toolKnifeItem_ID;
+    public static final int toolKnifeItem_ID_DEFAULT = 11012;
+    
     
 
 }

@@ -19,6 +19,8 @@ public class Items {
 	public static Item shovelHeadStoneItem;
 	public static Item shovelHeadWoodItem;
 	public static Item shovelHeadIronItem;
+	public static Item toolSawItem;
+	public static Item toolKnifeItem;
 
 	
 	
@@ -35,6 +37,8 @@ public class Items {
 		shovelHeadStoneItem = new shovelHeadStoneItem(ItemIDs.shovelHeadStoneItem_ID);
 		shovelHeadWoodItem = new shovelHeadWoodItem(ItemIDs.shovelHeadWoodItem_ID);
 		shovelHeadIronItem = new shovelHeadIronItem(ItemIDs.shovelHeadIronItem_ID);
+		toolSawItem = new toolSawItem(ItemIDs.toolSawItem_ID);
+		toolKnifeItem = new toolKnifeItem(ItemIDs.toolKnifeItem_ID);
 		
 		
 		
@@ -55,6 +59,8 @@ public class Items {
 		LanguageRegistry.addName(shovelHeadStoneItem, ItemNames.shovelHeadStoneItem_name);
 		LanguageRegistry.addName(shovelHeadWoodItem, ItemNames.shovelHeadWoodItem_name);
 		LanguageRegistry.addName(shovelHeadIronItem, ItemNames.shovelHeadIronItem_name);
+		LanguageRegistry.addName(toolSawItem, ItemNames.toolSawItem_name);
+		LanguageRegistry.addName(toolKnifeItem, ItemNames.toolKnifeItem_name);
 		
 	}
 

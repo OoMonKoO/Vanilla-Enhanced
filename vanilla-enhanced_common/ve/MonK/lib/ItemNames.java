@@ -34,5 +34,12 @@ public class ItemNames {
     
     public static final String toolPickFlintItem_unlocalizedName = "toolPickFlintItem";
     public static final String toolPickFlintItem_name = "Mining Pick";
+    
+    public static final String toolSawItem_unlocalizedName = "toolSawItem";
+    public static final String toolSawItem_name = "HandSaw";
+    
+    public static final String toolKnifeItem_unlocalizedName = "toolKnifeItem";
+    public static final String toolKnifeItem_name = "Survival Knife";
+    
 
 }
