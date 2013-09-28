@@ -102,7 +102,26 @@ public class Recipes {
 			"  s", " h ", "h  ",
 			's', Items.shovelHeadIronItem, 'h', Items.toolHandleItem});
 		
-		}
+		/** HANDSAW **/
+		
+		for(int i = 0; i < Items.toolSawItem.getMaxDamage(); i++){
+		GameRegistry.addRecipe(new ItemStack(Block.planks,2,0), new Object[] {
+			"h  ", "w  ", "   ", 'w', new ItemStack(Block.wood,1,0) , 'h', new ItemStack(Items.toolSawItem,1, i-1)});}
+		
+		for(int i = 0; i < Items.toolSawItem.getMaxDamage(); i++){
+			GameRegistry.addRecipe(new ItemStack(Block.planks,2,1), new Object[] {
+				"h  ", "w  ", "   ", 'w', new ItemStack(Block.wood,1,1) , 'h', new ItemStack(Items.toolSawItem,1, i-1)});}
+		
+		for(int i = 0; i < Items.toolSawItem.getMaxDamage(); i++){
+			GameRegistry.addRecipe(new ItemStack(Block.planks,2,2), new Object[] {
+				"h  ", "w  ", "   ", 'w', new ItemStack(Block.wood,1,2) , 'h', new ItemStack(Items.toolSawItem,1, i-1)});}
+		
+		for(int i = 0; i < Items.toolSawItem.getMaxDamage(); i++){
+			GameRegistry.addRecipe(new ItemStack(Block.planks,2,3), new Object[] {
+				"h  ", "w  ", "   ", 'w', new ItemStack(Block.wood,1,3) , 'h', new ItemStack(Items.toolSawItem,1, i-1)});}
+		
+		
+		
 		
 		
 		
@@ -112,6 +131,7 @@ public class Recipes {
 		FurnaceRecipes.smelting().addSmelting(Items.breadDoughItem.itemID , new ItemStack(Item.bread), 0.1F);
 		FurnaceRecipes.smelting().addSmelting(Item.reed.itemID, new ItemStack(Item.sugar), 0.1F);}
 	}
+}
 
 		
 	

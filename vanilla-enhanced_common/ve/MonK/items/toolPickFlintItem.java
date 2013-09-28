@@ -16,6 +16,7 @@ public class toolPickFlintItem extends ItemPickaxe {
         this.setUnlocalizedName(ItemNames.toolPickFlintItem_unlocalizedName);
         this.setCreativeTab(VanillaEnhanced.vanillaenhanced);
         this.setMaxStackSize(1); 
+        this.setMaxDamage(22);
   
     }
 

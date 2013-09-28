@@ -15,6 +15,8 @@ public class toolHandleItem extends Item {
         
         this.setCreativeTab(VanillaEnhanced.vanillaenhanced);
         this.setUnlocalizedName(ItemNames.toolHandleItem_unlocalizedName);
+        this.setMaxDamage(30);
+        this.maxStackSize = 1;
         
     }
     
