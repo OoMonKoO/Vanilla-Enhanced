@@ -24,3 +24,6 @@ PLANNED FEATURES: (coming soon)
 
 
 Any Suggestions are welcome!
+
+
+Looking for someone who can make Textures for the Mod, because im a noob in this :)
