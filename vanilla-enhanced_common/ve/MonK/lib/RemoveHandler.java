@@ -19,7 +19,7 @@ public class RemoveHandler {
 	Collection<Item> removeSet = new HashSet();
 	Collections.addAll(removeSet,
 	new Item[] {
-
+			
 	 Item.bread, Item.sugar, Item.axeWood, Item.pickaxeWood, Item.shovelWood, Item.hoeWood, 
 	 Item.axeStone, Item.axeIron, Item.axeGold, Item.hoeGold, Item.pickaxeStone, Item.pickaxeGold,
 	 Item.pickaxeIron, Item.shovelIron, Item.hoeIron, Item.shovelStone
@@ -39,17 +39,7 @@ public class RemoveHandler {
 	iterator1.remove();}
 	
 		}
-	//Iterator<IRecipe> iterator = CraftingManager.getInstance().getRecipeList().iterator();{
-
-	//while (iterator.hasNext())
-	//{
-	//IRecipe recipe = iterator.next();
-	//if (recipe == null)
-	   //      continue;
-	//ItemStack output = recipe.getRecipeOutput();
-	//if (output != null && output.itemID == Block.furnaceIdle.blockID)
-	  //       iterator.remove();
-	//}
+	
 }
 
 	
