@@ -26,6 +26,7 @@ public class ConfigurationHandler {
             ItemIDs.pickHeadIronItem_ID = config.get(Configuration.CATEGORY_ITEM, ItemNames.pickHeadIronItem_name, ItemIDs.pickHeadIronItem_ID_DEFAULT).getInt(ItemIDs.pickHeadIronItem_ID_DEFAULT);
             ItemIDs.shovelHeadStoneItem_ID = config.get(Configuration.CATEGORY_ITEM, ItemNames.shovelHeadStoneItem_name, ItemIDs.shovelHeadStoneItem_ID_DEFAULT).getInt(ItemIDs.shovelHeadStoneItem_ID_DEFAULT);
             ItemIDs.shovelHeadWoodItem_ID = config.get(Configuration.CATEGORY_ITEM, ItemNames.shovelHeadWoodItem_name, ItemIDs.shovelHeadWoodItem_ID_DEFAULT).getInt(ItemIDs.shovelHeadWoodItem_ID_DEFAULT);
+            ItemIDs.shovelHeadIronItem_ID = config.get(Configuration.CATEGORY_ITEM, ItemNames.shovelHeadIronItem_name, ItemIDs.shovelHeadIronItem_ID_DEFAULT).getInt(ItemIDs.shovelHeadIronItem_ID_DEFAULT);
 
             
             

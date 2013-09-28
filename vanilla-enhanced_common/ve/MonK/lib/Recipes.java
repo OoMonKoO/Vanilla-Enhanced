@@ -52,7 +52,12 @@ public class Recipes {
 			" ss", "  s", "   ",
 			's', Block.stone});
 		
-			
+		
+		GameRegistry.addRecipe(new ItemStack(Items.shovelHeadIronItem), new Object[] {
+			" ii", "  i", "   ",
+			'i', Item.ingotIron});
+		
+		
 		GameRegistry.addRecipe(new ItemStack(Items.toolHandleItem), new Object[] {
 			" s ", " s ", " s ",
 			's', Item.stick});
@@ -91,6 +96,12 @@ public class Recipes {
 		GameRegistry.addRecipe(new ItemStack(Item.shovelStone), new Object[] {
 			"  s", " h ", "h  ",
 			's', Items.shovelHeadStoneItem, 'h', Items.toolHandleItem});
+		
+		
+		GameRegistry.addRecipe(new ItemStack(Item.shovelIron), new Object[] {
+			"  s", " h ", "h  ",
+			's', Items.shovelHeadIronItem, 'h', Items.toolHandleItem});
+		
 		}
 		
 		

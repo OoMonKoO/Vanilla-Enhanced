@@ -23,6 +23,8 @@ public class RemoveHandler {
 	 Item.bread, Item.sugar, Item.axeWood, Item.pickaxeWood, Item.shovelWood, Item.hoeWood, 
 	 Item.axeStone, Item.axeIron, Item.axeGold, Item.hoeGold, Item.pickaxeStone, Item.pickaxeGold,
 	 Item.pickaxeIron, Item.shovelIron, Item.hoeIron, Item.shovelStone
+	 
+	 
 	}
 	);
 	Iterator<IRecipe> iterator1 = CraftingManager.getInstance().getRecipeList().iterator();

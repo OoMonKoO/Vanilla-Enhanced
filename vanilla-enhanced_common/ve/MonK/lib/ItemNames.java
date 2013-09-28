@@ -26,6 +26,9 @@ public class ItemNames {
     public static final String shovelHeadStoneItem_unlocalizedName = "shovelHeadStoneItem";
     public static final String shovelHeadStoneItem_name = "Stone Shovel Head";
     
+    public static final String shovelHeadIronItem_unlocalizedName = "shovelHeadIronItem";
+    public static final String shovelHeadIronItem_name = "Iron Shovel Head";
+    
     public static final String toolHandleItem_unlocalizedName = "toolHandleItem";
     public static final String toolHandleItem_name = "Handle";
     

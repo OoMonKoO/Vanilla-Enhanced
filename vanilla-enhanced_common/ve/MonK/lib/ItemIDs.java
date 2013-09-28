@@ -26,6 +26,9 @@ public class ItemIDs {
     public static int shovelHeadStoneItem_ID;
     public static final int shovelHeadStoneItem_ID_DEFAULT = 11008;
     
+    public static int shovelHeadIronItem_ID;
+    public static final int shovelHeadIronItem_ID_DEFAULT = 11010;
+    
     public static int toolHandleItem_ID;
     public static final int toolHandleItem_ID_DEFAULT = 11003;
     

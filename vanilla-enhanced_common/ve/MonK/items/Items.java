@@ -18,6 +18,7 @@ public class Items {
 	public static Item pickHeadIronItem;
 	public static Item shovelHeadStoneItem;
 	public static Item shovelHeadWoodItem;
+	public static Item shovelHeadIronItem;
 
 	
 	
@@ -33,13 +34,12 @@ public class Items {
 		pickHeadIronItem = new pickHeadIronItem(ItemIDs.pickHeadIronItem_ID);
 		shovelHeadStoneItem = new shovelHeadStoneItem(ItemIDs.shovelHeadStoneItem_ID);
 		shovelHeadWoodItem = new shovelHeadWoodItem(ItemIDs.shovelHeadWoodItem_ID);
+		shovelHeadIronItem = new shovelHeadIronItem(ItemIDs.shovelHeadIronItem_ID);
 		
 		
 		
 	}
 
-	
-	
 	
 	
 	public static void addNames() {
@@ -54,6 +54,7 @@ public class Items {
 		LanguageRegistry.addName(pickHeadIronItem, ItemNames.pickHeadIronItem_name);
 		LanguageRegistry.addName(shovelHeadStoneItem, ItemNames.shovelHeadStoneItem_name);
 		LanguageRegistry.addName(shovelHeadWoodItem, ItemNames.shovelHeadWoodItem_name);
+		LanguageRegistry.addName(shovelHeadIronItem, ItemNames.shovelHeadIronItem_name);
 		
 	}
 
