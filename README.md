@@ -17,10 +17,20 @@ Vanilla Minecraft.
 FEATUERS: ( This list will be longer over the dev time )
 
 + Complete new production chains for most of the vanilla Items and Blocks
-+ Better End Results for some of the Items 
++ Better End Results for some of the Items because of the enhanced Production Chains!
 
 
 PLANNED FEATURES: (coming soon)
+
++ An faster Vanilla Furnace
++ Vanilla Ore´s are not dropping the whole Block anymore. They drop an Raw Ore instead.
++ Enhanced Trades for the Villagers
++ Some colored Glass, GlassPanes, BrickBlocks for more variations in Buildings. But no Fanzy Colors like red,blue ect.
++ In later Stages i will add Blocks in Medival Style like Blocks with woodenFrames on it.
+
+More to come in later Statges or on Suggestions.
+
+
 
 
 Any Suggestions are welcome!
